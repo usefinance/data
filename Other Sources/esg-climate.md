@@ -17,6 +17,7 @@
 - <a href="https://edgar.jrc.ec.europa.eu/" target="_blank">EDGAR – Emissions Database for Global Atmospheric Research</a> — Global data on anthropogenic emissions of greenhouse gases and air pollutants, by the European Commission's Joint Research Centre. Covers CO₂, CH₄, N₂O, and F-gases by country, sector, and fuel type.
 - <a href="https://www.epa.gov/toxics-release-inventory-tri-program" target="_blank">EPA Toxic Release Inventory (TRI)</a> — U.S. data on industrial pollution and toxic releases. Covers facility-level chemical releases and waste management. Useful for analyzing firm-level environmental performance and regulatory compliance.
 - <a href="https://osf.io/fd6jq/" target="_blank">Firm-Level Climate Change Exposure</a> — Measures of firm-level exposure to climate change risks and opportunities, based on earnings conference call transcripts (Sautner et al.). Covers physical risk, regulatory risk, and opportunity dimensions.
+- <a href="https://modis.gsfc.nasa.gov/data/dataprod/mod13.php" target="_blank">MODIS Vegetation Indices (MOD13)</a> — NASA satellite-derived vegetation index data (NDVI and EVI) at global coverage. Useful for research linking environmental conditions to economic and financial outcomes.
 
 ## Climate Scenarios & Macro Data
 
