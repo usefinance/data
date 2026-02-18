@@ -6,7 +6,7 @@
 
 Go to the <a href="https://support.factset.com/academic/#/student" target="_blank">FactSet Academic Student Registration</a> page and fill in the form:
 
-- **Email**: Use your **@uu.nl** email address
+- **Email**: Use your **@students.uu.nl** email address
 - **University Name**: Universiteit Utrecht
 - **Academic Degree**: Select the appropriate option
 - **Expected Graduation Date**: Use **08/YYYY** (August of the year you graduate), e.g. 08/2026
