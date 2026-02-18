@@ -79,4 +79,4 @@ ceo_pay = conn.raw_sql("""
 """)
 ```
 
-For more examples, see the [Python API notebook](../Basics%20of%20Using%20Python%20on%20WRDS%20Platform.ipynb).
+For more examples, see the [Python API notebook](../notebook.md).

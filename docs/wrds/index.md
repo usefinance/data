@@ -36,7 +36,7 @@ After submitting your registration, you will receive an email with login instruc
 
 ## Accessing Data via the Python API
 
-See the **[Basics of Using Python on WRDS Platform](Basics%20of%20Using%20Python%20on%20WRDS%20Platform.ipynb)** notebook for a hands-on guide covering:
+See the **[Basics of Using Python on WRDS Platform](notebook.md)** notebook for a hands-on guide covering:
 
 - Installing and connecting to WRDS with Python
 - Listing available databases and tables

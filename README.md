@@ -1,11 +1,14 @@
-Welcome to the *Finance* Data GitHub of
-# Utrecht University School of Economics
-On this website you can find manuals to download and process your data.
+# USE Finance Data
 
-## Data Sources
+Data guides and manuals for the Finance group at Utrecht University School of Economics.
 
-| Source | Description |
-|--------|-------------|
-| [WRDS](WRDS/) | Wharton Research Data Services — Compustat, ExecuComp, Mergent FISD, and more |
-| [FactSet](FactSet/) | FactSet account setup and access |
-| [Other Sources](Other%20Sources/) | Annual reports, company information, and a list of publicly available databases |
+**Live site:** [https://usefinance.github.io/data/](https://usefinance.github.io/data/)
+
+## Local Development
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Then open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
