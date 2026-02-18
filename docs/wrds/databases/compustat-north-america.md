@@ -67,4 +67,4 @@ apple = conn.raw_sql("""
 
 > **Tip**: Always filter on `datafmt = 'STD'`, `consol = 'C'`, and `indfmt = 'INDL'` when querying `funda`/`fundq` to avoid duplicate rows (restated data, different consolidation levels, etc.).
 
-For more examples, see the [Python API notebook](../Basics%20of%20Using%20Python%20on%20WRDS%20Platform.ipynb).
+For more examples, see the [Python API notebook](../notebook.md).

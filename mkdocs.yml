@@ -1,0 +1,63 @@
+site_name: USE Finance Data
+site_url: https://usefinance.github.io/data/
+
+theme:
+  name: material
+  font:
+    text: Open Sans
+    code: Roboto Mono
+  palette:
+    scheme: default
+  features:
+    - content.code.copy
+    - navigation.sections
+
+extra_css:
+  - assets/extra.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - WRDS:
+      - Account & Setup: wrds/index.md
+      - Python on WRDS: wrds/notebook.md
+      - Databases:
+          - Compustat North America: wrds/databases/compustat-north-america.md
+          - Compustat Bank: wrds/databases/compustat-bank.md
+          - Compustat Global: wrds/databases/compustat-global.md
+          - ExecuComp: wrds/databases/execucomp.md
+          - Compustat Segments: wrds/databases/compustat-segments.md
+          - Mergent FISD: wrds/databases/mergent-fisd.md
+          - TRACE: wrds/databases/trace.md
+          - Bond Returns: wrds/databases/bond-returns.md
+          - OTC Markets: wrds/databases/otc-markets.md
+          - Subsidiary Data: wrds/databases/subsidiary-data.md
+          - US Patents: wrds/databases/us-patents.md
+          - World Indices: wrds/databases/world-indices.md
+          - S&P Dow Jones Indices: wrds/databases/sp-dow-jones-indices.md
+          - Fama-French: wrds/databases/fama-french.md
+  - FactSet: factset/index.md
+  - Other Sources:
+      - Overview: other-sources/index.md
+      - Annual Reports: other-sources/annual-reports.md
+      - Company Information & News: other-sources/company-info-news.md
+      - Python Tools: other-sources/python-tools.md
+      - ESG, Climate & Sustainable Finance: other-sources/esg-climate.md
+      - Asset Pricing: other-sources/asset-pricing.md
+      - Economic Data: other-sources/economic-data.md
+      - Survey Data: other-sources/survey-data.md
+      - Sentiment & Culture: other-sources/sentiment-culture.md
+      - Macroeconomic & Country-Level Data: other-sources/macro-country-data.md
+      - Researcher Data Pages: other-sources/researcher-data.md
+      - Publicly Available Databases: other-sources/publicly-available-databases.md
