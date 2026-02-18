@@ -29,10 +29,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - WRDS:
-      - Account & Setup: wrds/index.md
-      - Python on WRDS: wrds/notebook.md
-      - Databases:
+  - Databases:
+      - WRDS:
+          - Account & Setup: wrds/index.md
+          - Python on WRDS: wrds/notebook.md
           - Compustat North America: wrds/databases/compustat-north-america.md
           - Compustat Bank: wrds/databases/compustat-bank.md
           - Compustat Global: wrds/databases/compustat-global.md
@@ -47,8 +47,8 @@ nav:
           - World Indices: wrds/databases/world-indices.md
           - S&P Dow Jones Indices: wrds/databases/sp-dow-jones-indices.md
           - Fama-French: wrds/databases/fama-french.md
-  - FactSet: factset/index.md
-  - Other Sources:
+      - FactSet: factset/index.md
+  - Other Data:
       - Overview: other-sources/index.md
       - Annual Reports: other-sources/annual-reports.md
       - Company Information & News: other-sources/company-info-news.md
