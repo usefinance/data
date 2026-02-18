@@ -18,6 +18,7 @@
 - <a href="https://www.epa.gov/toxics-release-inventory-tri-program" target="_blank">EPA Toxic Release Inventory (TRI)</a> — U.S. data on industrial pollution and toxic releases. Covers facility-level chemical releases and waste management. Useful for analyzing firm-level environmental performance and regulatory compliance.
 - <a href="https://osf.io/fd6jq/" target="_blank">Firm-Level Climate Change Exposure</a> — Measures of firm-level exposure to climate change risks and opportunities, based on earnings conference call transcripts (Sautner et al.). Covers physical risk, regulatory risk, and opportunity dimensions.
 - <a href="https://modis.gsfc.nasa.gov/data/dataprod/mod13.php" target="_blank">MODIS Vegetation Indices (MOD13)</a> — NASA satellite-derived vegetation index data (NDVI and EVI) at global coverage. Useful for research linking environmental conditions to economic and financial outcomes.
+- <a href="https://www.dropbox.com/scl/fi/mz6zz944jlba6tw0gedg7/Country-Industry-Average-CBF-values.xlsx?rlkey=hlokv6zffwnpjshs3bx30uhtp&e=1&dl=0" target="_blank">Country-Industry Corporate Biodiversity Footprint (CBF)</a> — Average Corporate Biodiversity Footprint values by country and industry, downloadable as Excel. Based on <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4398110" target="_blank">Giglio, Kuchler, Stroebel & Utkus (2024), "Do Investors Care About Biodiversity?"</a>, published in the *Review of Finance*.
 
 ## Climate Scenarios & Macro Data
 
