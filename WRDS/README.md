@@ -6,7 +6,7 @@ In order to use WRDS, you need to register for an account on the WRDS website. O
 
 ### Step 1: Go to the WRDS Website
 
-Navigate to [https://wrds-www.wharton.upenn.edu/](https://wrds-www.wharton.upenn.edu/) and click on the **Register** button.
+Navigate to <a href="https://wrds-www.wharton.upenn.edu/" target="_blank">https://wrds-www.wharton.upenn.edu/</a> and click on the **Register** button.
 
 ### Step 2: Select Your Institution
 
@@ -33,5 +33,3 @@ After submitting your registration, you will receive an email with login instruc
 ### Getting Help
 
 - For support, click on **Support** > **Contact WRDS Support** on the WRDS website and fill out the form.
-- WRDS also offers an [E-learning library](https://wrds-www.wharton.upenn.edu/pages/grid-items/introduction-wrds/) with videos on how to use WRDS.
-- For the full Utrecht University guide, see the [WRDS PDF manual](https://uufinancedata.wordpress.com/wp-content/uploads/2017/03/wrds2.pdf).
