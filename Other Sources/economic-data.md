@@ -1,0 +1,7 @@
+# Economic Data (with APIs)
+
+- <a href="https://fred.stlouisfed.org/" target="_blank">FRED (Federal Reserve Economic Data)</a> — 800,000+ U.S. and international time series from 100+ sources (Fed, BLS, BEA, Census, etc.). Free API with Python access via `fredapi`. Covers interest rates, inflation, employment, GDP, money supply, and more.
+- <a href="https://data.ecb.europa.eu/" target="_blank">ECB Statistical Data Warehouse</a> — Euro area monetary, financial, and economic statistics from the European Central Bank. Covers exchange rates, interest rates, monetary aggregates, balance of payments, and banking data. Free API access (SDMX).
+- <a href="https://www.bundesbank.de/en/statistics/time-series-databases" target="_blank">Deutsche Bundesbank Time Series</a> — German and European economic and financial statistics. Covers capital markets, banking, money markets, public finances, and external sector data. Free API access.
+- <a href="https://cepr.org/voxeu/columns/euro-area-monetary-policy-event-study-database" target="_blank">Euro Area Monetary Policy Event-Study Database</a> — High-frequency data on ECB monetary policy announcement effects on financial markets. Useful for event studies on conventional and unconventional monetary policy.
+- <a href="https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html" target="_blank">Euro Foreign Exchange Reference Rates</a> — Daily reference exchange rates for currencies vis-à-vis the euro, published by the ECB.
