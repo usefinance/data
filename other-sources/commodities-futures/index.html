@@ -1,0 +1,3310 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://usefinance.github.io/data/other-sources/commodities-futures/">
+      
+      
+        <link rel="prev" href="../bonds/">
+      
+      
+        <link rel="next" href="../foreign-exchange/">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.7">
+    
+    
+      
+        <title>Commodities & Futures - U.S.E. Finance Data Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.8608ea7d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#commodities-futures-data" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="U.S.E. Finance Data Hub" class="md-header__button md-logo" aria-label="U.S.E. Finance Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/images/Finance.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            U.S.E. Finance Data Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Commodities & Futures
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="U.S.E. Finance Data Hub" class="md-nav__button md-logo" aria-label="U.S.E. Finance Data Hub" data-md-component="logo">
+      
+  <img src="../../assets/images/Finance.png" alt="logo">
+
+    </a>
+    U.S.E. Finance Data Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Databases
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Databases
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../wrds/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    WRDS
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            WRDS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/notebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python on WRDS
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../wrds/databases/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Available Data
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_1_3" id="__nav_2_1_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Available Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3_2" id="__nav_2_1_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Corporate Financials
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_1_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Corporate Financials
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/compustat-north-america/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compustat North America
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/compustat-bank/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compustat Bank
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/compustat-global/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compustat Global
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/compustat-segments/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compustat Historical Segments
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3_3" id="__nav_2_1_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Compensation & Governance
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_1_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Compensation & Governance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/execucomp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ExecuComp
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/audit-analytics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Audit Analytics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3_4" id="__nav_2_1_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Fixed Income & Bond Markets
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_1_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Fixed Income & Bond Markets
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/mergent-fisd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mergent FISD
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/trace/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TRACE
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/bond-returns/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bond Returns
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3_5" id="__nav_2_1_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Market Data & Indices
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_1_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Market Data & Indices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/world-indices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    World Indices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/sp-dow-jones-indices/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    S&P Dow Jones Indices
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/fama-french/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fama-French Portfolios and Factors
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/otc-markets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OTC Markets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1_3_6" id="__nav_2_1_3_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Corporate Structure & Innovation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_2_1_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Corporate Structure & Innovation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/subsidiary-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Subsidiary Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../wrds/databases/us-patents/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    US Patents
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../factset/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    FactSet
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            FactSet
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2_2" id="__nav_2_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Available Data
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Available Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/todaynews/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Today's News
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/markets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Markets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/watchlist/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Watchlist
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/company/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Company&Security
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/charting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Charting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/economics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Economics
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/sectors/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sectors&Insights
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/document/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Document Search
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/screening/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Screening
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/portfolio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portfolio Analysis 3.0
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/ownership/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ownership
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factset/using-factset/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using FactSet
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../lseg/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    LSEG Workspace
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            LSEG Workspace
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3_2" id="__nav_2_3_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Available Data
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Available Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/markets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Markets
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/macro/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Macro
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/company/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Company
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/portfolio/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Portfolio
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/news/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/charting/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Charting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/sustainability/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sustainability
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/research/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Research
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/filings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Filings&Events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/searchtool/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Search Tools
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lseg/using-lseg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Using LSEG Workspace
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Other Data
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Other Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../company-info/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Company Information
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Company Information
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../company-info/filings/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Company Filings (SEC EDGAR)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../annual-reports/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annual Reports
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../identifiers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Identifiers & Data Linking
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../news-media/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    News & Media
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            News & Media
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../news-media/news/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    News
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../social-media/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Social Media
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../esg/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    ESG, Climate & Sustainable Finance
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            ESG, Climate & Sustainable Finance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../esg/firm-level/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Firm-Level Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../esg/country-level/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Country-Level Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_5" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../assets/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Asset Classes
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Asset Classes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../asset-pricing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Equities & Asset Pricing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bonds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bonds & Fixed Income
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Commodities & Futures
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Commodities & Futures
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cftc-commitment-of-traders-cot-reports-api-csv-python-us" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFTC Commitment of Traders (COT) Reports API CSV Python US
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CFTC Commitment of Traders (COT) Reports API CSV Python US">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#legacy-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Legacy Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disaggregated-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disaggregated Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traders-in-financial-futures-tff-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traders in Financial Futures (TFF) Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplemental-commodity-index-trader-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supplemental (Commodity Index Trader) Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#report-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Report Comparison
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-cot-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing COT Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing COT Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cftc-website-bulk-downloads" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFTC Website &amp; Bulk Downloads
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cftc-public-reporting-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFTC Public Reporting API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Python Access
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esma-commitment-of-traders-reports-csv-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESMA Commitment of Traders Reports CSV Global
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#european-electricity-market-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      European Electricity Market Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="European Electricity Market Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entso-e-transparency-platform-api-csv-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      ENTSO-E Transparency Platform API CSV Global
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#realized-volatility-for-futures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Realized Volatility for Futures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-database-for-commodities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Database for Commodities
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../foreign-exchange/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Foreign Exchange
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cryptocurrency/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cryptocurrency
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../economic/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Economic & Macroeconomic Data
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            Economic & Macroeconomic Data
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../economic-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Time Series & APIs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../macro-country-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Country-Level Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../economic-policy-uncertainty/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Policy Uncertainty
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../regulations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Regulations
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../survey-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Survey Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sentiment-culture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sentiment & Culture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ceo-turnover/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Managerial/Executive Data
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../python-tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Python Tools & Books
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../researcher-data/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data Collections
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../replication-packages/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Journal Replication Packages
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cftc-commitment-of-traders-cot-reports-api-csv-python-us" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFTC Commitment of Traders (COT) Reports API CSV Python US
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CFTC Commitment of Traders (COT) Reports API CSV Python US">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#legacy-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Legacy Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disaggregated-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Disaggregated Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#traders-in-financial-futures-tff-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Traders in Financial Futures (TFF) Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#supplemental-commodity-index-trader-report" class="md-nav__link">
+    <span class="md-ellipsis">
+      Supplemental (Commodity Index Trader) Report
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#report-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Report Comparison
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#accessing-cot-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accessing COT Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Accessing COT Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cftc-website-bulk-downloads" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFTC Website &amp; Bulk Downloads
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cftc-public-reporting-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      CFTC Public Reporting API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#python-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      Python Access
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-resources" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Resources
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#esma-commitment-of-traders-reports-csv-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      ESMA Commitment of Traders Reports CSV Global
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#european-electricity-market-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      European Electricity Market Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="European Electricity Market Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entso-e-transparency-platform-api-csv-global" class="md-nav__link">
+    <span class="md-ellipsis">
+      ENTSO-E Transparency Platform API CSV Global
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#realized-volatility-for-futures" class="md-nav__link">
+    <span class="md-ellipsis">
+      Realized Volatility for Futures
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#additional-database-for-commodities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Additional Database for Commodities
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="commodities-futures-data">Commodities &amp; Futures Data<a class="headerlink" href="#commodities-futures-data" title="Permanent link">&para;</a></h1>
+<h2 id="cftc-commitment-of-traders-cot-reports-api-csv-python-us">CFTC Commitment of Traders (COT) Reports <span class="badge badge-api">API</span> <span class="badge badge-csv">CSV</span> <span class="badge badge-python">Python</span> <span class="badge badge-us">US</span><a class="headerlink" href="#cftc-commitment-of-traders-cot-reports-api-csv-python-us" title="Permanent link">&para;</a></h2>
+<p>The <a href="https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm" target="_blank">Commitments of Traders (COT)</a> reports are published weekly by the U.S. Commodity Futures Trading Commission (CFTC). They provide a breakdown of open interest positions in U.S. futures and options markets, classified by trader type. The data reflects positions as of each Tuesday and is released every Friday at 3:30 PM Eastern time. COT data is widely used in finance research to study hedging activity, speculative positioning, commodity market sentiment, and the role of different trader categories in price formation.</p>
+<p>The CFTC publishes four types of COT reports, each offering a different level of trader disaggregation and market coverage:</p>
+<h3 id="legacy-report">Legacy Report<a class="headerlink" href="#legacy-report" title="Permanent link">&para;</a></h3>
+<p>The oldest and broadest COT report, available since <strong>January 1986</strong>. It classifies reportable traders into two categories: <strong>Commercial</strong> (hedgers — producers, merchants, processors, and users of the physical commodity) and <strong>Non-Commercial</strong> (speculators — typically managed money and other financial traders). The Legacy report covers both physical delivery contracts (agricultural, energy, metals) and non-physical financial contracts (currencies, interest rates, equity indices), making it the most comprehensive in terms of market coverage. Available in short and long format, futures-only and futures-and-options combined.</p>
+<h3 id="disaggregated-report">Disaggregated Report<a class="headerlink" href="#disaggregated-report" title="Permanent link">&para;</a></h3>
+<p>Published since <strong>September 2009</strong> (with data back to June 2006), this report provides greater transparency by splitting traders into four categories: <strong>Producer/Merchant/Processor/User</strong>, <strong>Swap Dealers</strong>, <strong>Managed Money</strong>, and <strong>Other Reportables</strong>. This allows researchers to distinguish between, for example, commodity index swap dealers and traditional commercial hedgers — a distinction that is not possible in the Legacy report. The Disaggregated report covers <strong>physical delivery commodity contracts only</strong> (agriculture, energy, metals, softs). Available in short and long format.</p>
+<h3 id="traders-in-financial-futures-tff-report">Traders in Financial Futures (TFF) Report<a class="headerlink" href="#traders-in-financial-futures-tff-report" title="Permanent link">&para;</a></h3>
+<p>The TFF report covers <strong>financial (non-physical) futures contracts only</strong> — currencies, interest rates, equity indices, and other financial instruments. It classifies traders into four categories: <strong>Dealer/Intermediary</strong> (sell-side institutions), <strong>Asset Manager/Institutional</strong> (pension funds, insurance companies, mutual funds), <strong>Leveraged Funds</strong> (hedge funds, CTAs, CPOs), and <strong>Other Reportables</strong>. Available since <strong>June 2006</strong> in long format only. Particularly useful for research on institutional positioning in interest rate and equity index futures.</p>
+<h3 id="supplemental-commodity-index-trader-report">Supplemental (Commodity Index Trader) Report<a class="headerlink" href="#supplemental-commodity-index-trader-report" title="Permanent link">&para;</a></h3>
+<p>Introduced in <strong>January 2007</strong> in response to the growth of commodity index investing, this report adds a <strong>Commodity Index Trader (CIT)</strong> category to the Legacy classifications for <strong>13 select agricultural commodity markets</strong>. It allows researchers to separate index fund positions from traditional commercial and speculative positions — useful for studying the financialization of commodity markets. Available in short format only, futures-and-options combined.</p>
+<h3 id="report-comparison">Report Comparison<a class="headerlink" href="#report-comparison" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Report</th>
+<th>Market Coverage</th>
+<th>Trader Categories</th>
+<th>Data Since</th>
+<th>Format</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Legacy</strong></td>
+<td>Physical + financial contracts</td>
+<td>Commercial, Non-Commercial</td>
+<td>Jan 1986</td>
+<td>Short &amp; Long</td>
+</tr>
+<tr>
+<td><strong>Disaggregated</strong></td>
+<td>Physical commodity contracts only</td>
+<td>Producer/Merchant, Swap Dealer, Managed Money, Other</td>
+<td>Jun 2006</td>
+<td>Short &amp; Long</td>
+</tr>
+<tr>
+<td><strong>TFF</strong></td>
+<td>Financial contracts only</td>
+<td>Dealer, Asset Manager, Leveraged Fund, Other</td>
+<td>Jun 2006</td>
+<td>Long only</td>
+</tr>
+<tr>
+<td><strong>Supplemental (CIT)</strong></td>
+<td>13 agricultural commodities</td>
+<td>Commercial, Non-Commercial, Index Trader</td>
+<td>Jan 2007</td>
+<td>Short only</td>
+</tr>
+</tbody>
+</table>
+<h2 id="accessing-cot-data">Accessing COT Data<a class="headerlink" href="#accessing-cot-data" title="Permanent link">&para;</a></h2>
+<h3 id="cftc-website-bulk-downloads">CFTC Website &amp; Bulk Downloads<a class="headerlink" href="#cftc-website-bulk-downloads" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://www.cftc.gov/MarketReports/CommitmentsofTraders/index.htm" target="_blank">COT Reports Main Page</a> — Current and historical COT reports in all four formats. Includes links to bulk CSV downloads for each report type, with data going back to 1986 (Legacy) or 2006 (Disaggregated, TFF, Supplemental).</li>
+<li><a href="https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalViewable/index.htm" target="_blank">Historical Viewable Reports</a> — Weekly COT reports in HTML format, viewable directly in the browser. Each report covers a single reporting week, with all historical reports available as compressed annual files.</li>
+<li><a href="https://www.cftc.gov/data" target="_blank">Data at CFTC</a> — Overview page for all CFTC data products, including COT reports, swaps data, and market surveillance information.</li>
+</ul>
+<h3 id="cftc-public-reporting-api">CFTC Public Reporting API<a class="headerlink" href="#cftc-public-reporting-api" title="Permanent link">&para;</a></h3>
+<p>The CFTC provides free programmatic access to all COT report data through a <a href="https://publicreporting.cftc.gov/stories/s/Commitments-of-Traders/r4w3-av2u/" target="_blank">Socrata-based (SODA) API</a> at <code>publicreporting.cftc.gov</code>. The API supports filtering, sorting, and pagination via standard query parameters, making it straightforward to retrieve data for specific contracts, date ranges, or trader categories.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The CFTC API requires no authentication or API key — you can start querying immediately.</p>
+</div>
+<ul>
+<li><a href="https://publicreporting.cftc.gov/stories/s/Commitments-of-Traders/r4w3-av2u/" target="_blank">COT API Landing Page</a> — Entry point for all COT datasets with links to individual report APIs (Legacy, Disaggregated, TFF, Supplemental) in both futures-only and combined variants.</li>
+<li><a href="https://publicreporting.cftc.gov/stories/s/User-s-Guide/p2fg-u73y/" target="_blank">User's Guide</a> — Documentation on how to use the CFTC public reporting platform, including API query syntax, filtering options, and export formats.</li>
+<li><a href="https://dev.socrata.com/foundry/publicreporting.cftc.gov/6dca-aqww" target="_blank">Legacy Futures-Only API Docs</a> — Socrata developer documentation for the Legacy Futures-Only endpoint, with example queries and field descriptions.</li>
+</ul>
+<h3 id="python-access">Python Access<a class="headerlink" href="#python-access" title="Permanent link">&para;</a></h3>
+<ul>
+<li><a href="https://github.com/NDelventhal/cot_reports" target="_blank"><code>cot_reports</code></a> — Open-source Python library for fetching all CFTC COT report types directly into pandas DataFrames. Supports Legacy (futures-only and combined), Disaggregated (futures-only and combined), TFF (futures-only and combined), and Supplemental reports. (<a href="https://pypi.org/project/cot-reports/" target="_blank">PyPI</a>)</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>pip<span class="w"> </span>install<span class="w"> </span>cot_reports
+</code></pre></div>
+<h2 id="additional-resources">Additional Resources<a class="headerlink" href="#additional-resources" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.cmegroup.com/tools-information/quikstrike/commitment-of-traders.html" target="_blank">CME Group QuikStrike COT Tool</a> — Interactive visualization of CFTC COT data for CME-listed contracts, with configurable charts and historical comparisons.</li>
+<li><a href="https://www.financialresearch.gov/hedge-fund-monitor/datasets/tff/" target="_blank">Office of Financial Research (OFR) — TFF Data</a> — The OFR (U.S. Treasury) provides downloadable Traders in Financial Futures datasets with visualization tools, useful for research on hedge fund and institutional positioning.</li>
+<li><a href="https://cot-reports.com/" target="_blank">COT-Reports.com</a> — Free COT analysis platform with 10 years of historical data, charts, tables, and analysis tools covering 340+ futures markets.</li>
+</ul>
+<h2 id="esma-commitment-of-traders-reports-csv-global">ESMA Commitment of Traders Reports <span class="badge badge-csv">CSV</span> <span class="badge badge-global">Global</span><a class="headerlink" href="#esma-commitment-of-traders-reports-csv-global" title="Permanent link">&para;</a></h2>
+<p>The <a href="https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_coder58" target="_blank">ESMA Commitment of Traders Reports</a> are the European equivalent of the CFTC COT reports, published weekly by the European Securities and Markets Authority (ESMA) under MiFID II Article 58. Trading venues in the EU are required to submit weekly reports on aggregate open positions held by different categories of market participants in commodity derivatives and emission allowances. ESMA centrally publishes these reports, covering European commodity futures markets that are largely absent from CFTC data.</p>
+<p>The reports classify position holders into five categories:</p>
+<ul>
+<li><strong>Investment firms or credit institutions</strong></li>
+<li><strong>Investment funds</strong> (including UCITS and AIFs)</li>
+<li><strong>Other financial institutions</strong></li>
+<li><strong>Commercial undertakings</strong> (producers, processors, and commercial end-users)</li>
+<li><strong>Operators with compliance obligations</strong> under the EU Emissions Trading Scheme (ETS)</li>
+</ul>
+<p>Data reflects positions as of the close of business each Friday. Compared to CFTC reports, the ESMA data uniquely identifies EU ETS compliance operators as a separate trader category, and covers European energy, agricultural, and carbon derivatives markets.</p>
+<h2 id="european-electricity-market-data">European Electricity Market Data<a class="headerlink" href="#european-electricity-market-data" title="Permanent link">&para;</a></h2>
+<h3 id="entso-e-transparency-platform-api-csv-global">ENTSO-E Transparency Platform <span class="badge badge-api">API</span> <span class="badge badge-csv">CSV</span> <span class="badge badge-global">Global</span><a class="headerlink" href="#entso-e-transparency-platform-api-csv-global" title="Permanent link">&para;</a></h3>
+<p>The <a href="https://transparency.entsoe.eu/" target="_blank">ENTSO-E Transparency Platform</a> provides free access to European electricity market data, published by the European Network of Transmission System Operators for Electricity. Covers actual and forecast electricity generation, cross-border flows, day-ahead prices, load, and balancing data for 35+ European countries. Data is published with a delay of 24 hours or less. Free registration required for API access.</p>
+<ul>
+<li><a href="https://transparency.entsoe.eu/dashboard/show" target="_blank">Transparency Platform Dashboard</a> — Interactive dashboard with real-time and historical electricity data. Data downloadable as CSV directly from the web interface.</li>
+<li><a href="https://transparencyplatform.zendesk.com/hc/en-us/articles/12845911031188-How-to-get-security-token" target="_blank">ENTSO-E RESTful API</a> — Programmatic access to all transparency data via a RESTful API. Requires a free account and API security token. Python access via the <a href="https://pypi.org/project/entsoe-py/" target="_blank"><code>entsoe-py</code></a> client library.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>pip<span class="w"> </span>install<span class="w"> </span>entsoe-py
+</code></pre></div>
+<h2 id="realized-volatility-for-futures">Realized Volatility for Futures<a class="headerlink" href="#realized-volatility-for-futures" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://volare.unime.it/" target="_blank">VOLARE (VOLatility Archive for Realized Estimates)</a> <span class="badge badge-csv">CSV</span> <span class="badge badge-global">Global</span> — Open research infrastructure providing standardized realized volatility and covariance measures for futures contracts (including commodity futures traded on NYMEX, COMEX, and CME), constructed from ultra-high-frequency tick-level data at one-second resolution. Delivers realized variance, bipower variation, semivariances, realized quarticity, realized kernels, and multivariate realized covariance. Covered futures are listed in Appendix Table A.3 of the <a href="https://arxiv.org/abs/2602.19732" target="_blank">reference paper</a>. <strong>See also</strong>: <a href="../asset-pricing/#volatility-options-data">Equities &amp; Asset Pricing</a> for the full VOLARE description and equity coverage | <a href="../foreign-exchange/">Foreign Exchange</a> for VOLARE's exchange rate coverage.</li>
+</ul>
+<h2 id="additional-database-for-commodities">Additional Database for Commodities<a class="headerlink" href="#additional-database-for-commodities" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The <a href="https://sites.google.com/site/cjsbaumeister/datasets" target="_blank">Christiane Baumeister Datasets</a> <span class="badge badge-csv">XLSX</span> <span class="badge badge-global">Global</span> page provides a collection of macroeconomic and commodity-related time series constructed in peer‑reviewed research, with regular real‑time updates. The datasets include global activity indicators (Monthly World Industrial Production index, Global Economic Conditions indicator), high-frequency U.S. business cycle measures (state-level and national Weekly Economic Conditions Indicators, Weekly Economic Weakness Index), and energy and commodity series such as WTI oil price expectations, structural oil supply and demand shocks, market-based oil price shocks, a real commodity price factor, and a real-time natural gas market database. Most series span several decades at monthly or weekly frequency (e.g. WIP from 1958, GECON from 1973, ECI from 1987), making them suitable for research on business cycles, forecasting, and the macroeconomic effects of commodity and energy shocks. Several indicators are mirrored in Haver Analytics (e.g. GECON in G10/EMERGE, state and national ECIs in REGIONW), and each dataset is documented with its academic source, sample period, and planned update schedule.</li>
+</ul>
+<hr />
+<p><strong>See also</strong>: <a href="../assets/">Asset Classes</a> for an overview of all asset class data | <a href="../economic/">Economic &amp; Macroeconomic Data</a> for macro drivers of commodity markets | <a href="../python-tools/">Python Tools &amp; Books</a> for general financial data packages.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.tabs.link", "navigation.instant", "navigation.sections", "navigation.indexes", "navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
