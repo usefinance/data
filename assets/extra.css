@@ -1,0 +1,106 @@
+:root {
+  --md-primary-fg-color: #000000;
+  --md-accent-fg-color: #C00A35;
+}
+
+.md-header {
+  border-top: 4px solid #FFCD00;
+}
+
+/* Red links */
+a {
+  color: #C00A35;
+}
+
+a:hover {
+  color: #900828;
+}
+
+/* Navigation and content links */
+.md-content a,
+.md-nav a,
+a.md-nav__link {
+  color: #C00A35;
+}
+
+.md-content a:hover,
+.md-nav a:hover,
+a.md-nav__link:hover {
+  color: #900828;
+}
+
+/* Table hover and padding */
+.md-content table tr:hover {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.md-content table td {
+  padding: 0.6em 1em;
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 0.15em 0.5em;
+  font-size: 0.75em;
+  font-weight: 600;
+  border-radius: 3px;
+  vertical-align: middle;
+  margin-left: 0.3em;
+}
+
+.badge-api {
+  background: #e3f2fd;
+  color: #1565c0;
+}
+
+.badge-python {
+  background: #fff3e0;
+  color: #e65100;
+}
+
+.badge-csv {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.badge-fred {
+  background: #ede7f6;
+  color: #4527a0;
+}
+
+.badge-us {
+  background: #fce4ec;
+  color: #c62828;
+}
+
+.badge-global {
+  background: #e0f2f1;
+  color: #00695c;
+}
+
+.badge-equities {
+  background: #e8eaf6;
+  color: #283593;
+}
+
+.badge-bonds {
+  background: #fafafa;
+  color: #424242;
+  border: 1px solid #bdbdbd;
+}
+
+.badge-crypto {
+  background: #fff8e1;
+  color: #f57f17;
+}
+
+.badge-fx {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.badge-commodities {
+  background: #fbe9e7;
+  color: #bf360c;
+}
