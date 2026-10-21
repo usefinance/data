@@ -21,5 +21,10 @@ Many top finance journals now require authors to deposit replication code and da
 !!! tip
     Each dataset entry on Harvard Dataverse lists the associated paper, authors, and a README describing data sources, variable definitions, and how to run the replication code.
 
+## Selected Firm-Level Research Data
+
+- [AI Computational Capacity & Data Intensity — Firm-Year Panel](company-info/index.md#ai-computational-capacity-data-intensity-firm-year-panel) — Public measures from Mihet, Rishabh, and Gomes (2026, *Journal of Monetary Economics*), covering 12,038 U.S. listed firms over 2000–2023. Includes `gvkey` and `fyear` merge keys; no financial variables are distributed.
+- [Cyberrisk and AI Firms — Public AI-Intensity Data](company-info/index.md#cyberrisk-and-ai-firms-public-ai-intensity-data) — Public firm-year AI-intensity data, figure source data, and replication code from Rishabh, Mihet, and Jang-Jaccard. The licensed regression panel is excluded; a synthetic panel is provided for checking the code's table and figure structure.
+
 ---
 **See also**: [Asset Pricing](asset-pricing.md) for pre-compiled factor data (JKP, Open Source Asset Pricing) | [Data Collections](researcher-data.md) for general-purpose data repositories.

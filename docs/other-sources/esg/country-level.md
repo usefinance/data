@@ -23,5 +23,9 @@ pip install faostat
 
 - <a href="https://gain.nd.edu/our-work/country-index/download-data/" target="_blank">ND-GAIN Country Index</a> <span class="badge badge-csv">CSV</span> <span class="badge badge-global">Global</span> — Annual country-level scores measuring vulnerability to climate change and readiness to adapt, from the Notre Dame Global Adaptation Initiative. Covers 182 countries from 1995 to present. Vulnerability is assessed across six life-supporting sectors (food, water, health, ecosystem services, human habitat, and infrastructure); readiness captures economic, governance, and social capacity to leverage investments for adaptation. Data downloadable as CSV. Widely used in research on climate finance, sovereign risk, and ESG investing.
 
+## Climate Change Concerns
+
+- <a href="https://sentometrics-research.com/download/mccc/" target="_blank">Media Climate Change Concerns (MCCC)</a> — A media-based index of climate change concerns, available from Sentometrics Research. Useful for studying climate attention and its relationship with financial markets and economic outcomes.
+
 ---
 **See also**: [Firm-Level ESG Data](firm-level.md) for company-level ratings, emissions, and climate risk measures | [Macroeconomic & Country-Level Data](../macro-country-data.md) for broader sovereign indicators | [EDGAR Emissions Database](firm-level.md#emissions-pollution-environmental-registries) for country-level greenhouse gas data.

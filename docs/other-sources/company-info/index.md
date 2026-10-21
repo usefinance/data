@@ -1,6 +1,6 @@
 # Firm Data
 
-Resources for identifying companies, accessing regulatory filings and financial statements, retrieving annual reports, and linking firm-level data across databases.
+Resources for identifying companies, accessing regulatory filings and financial statements, retrieving annual reports, measuring AI and data intensity, and linking firm-level data across databases.
 
 | Topic | Description |
 |-------|-------------|
@@ -23,6 +23,27 @@ A new Embeddings-based TNIC (ETNIC) is available in a preliminary release. (<a h
 - Hoberg, G. and Phillips, G. (2010). Product Market Synergies and Competition in Mergers and Acquisitions: A Text-Based Analysis. *Review of Financial Studies*, 23(10), 3773–3811.
 - Hoberg, G. and Phillips, G. (2016). Text-Based Network Industries and Endogenous Product Differentiation. *Journal of Political Economy*, 124(5), 1423–1465.
 - Hoberg, G. and Phillips, G. (2024). Scope, Scale and Competition: The 21st Century Firm. *Journal of Finance*, 80(1), 415-466.
+
+## AI, Innovation & Data Intensity
+
+### AI Computational Capacity & Data Intensity — Firm-Year Panel
+
+<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DJASWD" target="_blank">AI Intensity and Data Intensity: Firm-Year Panel for "Is It AI or Data That Drives Firm Market Power?"</a> <span class="badge badge-us">US</span> — Public panel from Roxana Mihet, Kumar Rishabh, and Orlando Gomes (2026), *Journal of Monetary Economics*, 157, 103878. Covers **12,038 U.S. listed firms** in CRSP-Compustat over fiscal years **2000–2023**, with **114,822 firm-year observations**. Contains two measures:
+
+- **`ai_compute_intensity`** — Patent-based score of AI computational capacity, called "AI intensity" in the paper.
+- **`data_intensity`** — Score of reliance on large datasets, constructed from 10-K business-description similarity and AI patent shares, called "Data intensity" in the paper.
+
+Merge using **`gvkey`** and **`fyear`**. Version 1.0 contains the **March 2025 vintage** used for the paper's results, distributed as a tabular file with a README explaining construction and definitions. Compustat supplies identifiers and company names only; **no financial variables are included**. Released under CC0 1.0. (<a href="https://doi.org/10.1016/j.jmoneco.2025.103878" target="_blank">Related paper</a>)
+
+!!! note "Measure definitions across releases"
+    The JME panel's patent-based `ai_compute_intensity` measure and the AI-intensity index in the RCFS release below are distinct measures. Consult the JME README for their relationship before comparing or combining the releases.
+
+### Cyberrisk and AI Firms — Public AI-Intensity Data
+
+<a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/JBVHSB" target="_blank">Replication Data for: Cyberrisk and AI Firms</a> — Public firm-year AI-intensity data from the paper by Kumar Rishabh, Roxana Mihet, and Julian Jang-Jaccard, accepted at the *Review of Corporate Finance Studies*. The Harvard Dataverse release (Version 1.0, 2026) also includes source data for the published figures and code for the regression tables and figures. Released under CC0 1.0.
+
+!!! info "Public data and replication limits"
+    The merged CRSP-Compustat/WRDS regression panel and other licensed inputs are not redistributed. A separate synthetic firm-year panel is included to run the code and check the table and figure structure; it does not reproduce the empirical results from the licensed data.
 
 ---
 **See also**: [Data Collections](../researcher-data.md) for general-purpose data repositories | [WRDS](../../wrds/index.md) for Compustat and other company-level databases.
