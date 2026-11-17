@@ -24,6 +24,8 @@ pip install ccxt
 
 - <a href="https://data.binance.vision/" target="_blank">Binance Public Data</a> <span class="badge badge-csv">CSV</span> <span class="badge badge-global">Global</span> <span class="badge badge-crypto">Crypto</span> — Free bulk downloads of historical trading data from Binance. Covers klines (OHLCV), trades, and aggregate trades at tick, minute, hourly, and daily frequencies. Data available from 2017 onwards. No registration required.
 
+- <a href="https://docs.hydromancer.xyz/reservoir" target="_blank">Hydromancer Reservoir</a> <span class="badge badge-global">Global</span> <span class="badge badge-crypto">Crypto</span> — Free archive of historical Hyperliquid exchange data, published as Parquet files (updated daily) in a requester-pays AWS S3 bucket (`s3://hydromancer-reservoir`, region ap-northeast-1). Covers trade fills (including liquidations, ADL and TWAP fills), 1-second candles, daily position snapshots and order books. No API key needed, but an AWS account is required and the requester pays AWS data transfer. Files can be queried directly with DuckDB. Licensed CC BY 4.0 (credit Hydromancer).
+
 ## On-Chain & Blockchain Data
 
 - <a href="https://www.blockchain.com/explorer/api/blockchain_api" target="_blank">Blockchain.com API</a> <span class="badge badge-api">API</span> <span class="badge badge-global">Global</span> <span class="badge badge-crypto">Crypto</span> — Free API for Bitcoin blockchain data including transaction details, block data, address balances, and aggregate market statistics (hash rate, difficulty, mempool). No API key required for basic endpoints.
